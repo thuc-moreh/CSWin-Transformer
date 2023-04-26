@@ -1,0 +1,75 @@
+(cswin-transformer) ubuntu@moreh-2004-vm08:/nas/thuchk/repos/CSWin-Transformer$ bash run_main.sh
+Training with a single process on 1 GPUs.
+Model CSWin_64_12211_tiny_224 created, param count: 22320552
+Data processing configuration for current model + dataset:
+        input_size: (3, 224, 224)
+        interpolation: bicubic
+        mean: (0.485, 0.456, 0.406)
+        std: (0.229, 0.224, 0.225)
+        crop_pct: 0.9
+AMP not enabled. Training in float32.
+Scheduled epochs: 1
+/nas/.conda/envs/cswin-transformer/lib/python3.8/site-packages/torch/_M/driver/cuda/builtin.py:27: UserWarn
+ing: torch.cuda.synchronize() is ignored in Moreh AI Framework. This does not affect the program behavior i
+n most cases. Please contact technical support for further information.
+  warnings.warn(
+Train: 0 [   0/1830 (  0%)] Loss:  6.993115 (6.9931) Time:   78/s (  78/s) LR: 2.000e-03 Data: 5.603
+Train: 0 [  50/1830 (  3%)] Loss:  5.147047 (5.2754) Time:  152/s ( 155/s) LR: 2.000e-03 Data: 23.321
+Train: 0 [ 100/1830 (  5%)] Loss:  5.170817 (5.2182) Time:  150/s ( 155/s) LR: 2.000e-03 Data: 40.892
+Train: 0 [ 150/1830 (  8%)] Loss:  5.150280 (5.1959) Time:  159/s ( 154/s) LR: 2.000e-03 Data: 58.504
+Train: 0 [ 200/1830 ( 11%)] Loss:  5.155727 (5.1825) Time:  157/s ( 154/s) LR: 2.000e-03 Data: 76.475
+Train: 0 [ 250/1830 ( 14%)] Loss:  5.143197 (5.1728) Time:  158/s ( 154/s) LR: 2.000e-03 Data: 94.120
+Train: 0 [ 300/1830 ( 16%)] Loss:  5.094570 (5.1638) Time:  152/s ( 154/s) LR: 2.000e-03 Data: 111.429
+Train: 0 [ 350/1830 ( 19%)] Loss:  5.120802 (5.1586) Time:  157/s ( 154/s) LR: 2.000e-03 Data: 128.971
+Train: 0 [ 400/1830 ( 22%)] Loss:  5.122564 (5.1540) Time:  159/s ( 155/s) LR: 2.000e-03 Data: 146.935
+Train: 0 [ 450/1830 ( 25%)] Loss:  5.130784 (5.1502) Time:  157/s ( 155/s) LR: 2.000e-03 Data: 164.654
+Train: 0 [ 500/1830 ( 27%)] Loss:  5.114422 (5.1471) Time:  157/s ( 155/s) LR: 2.000e-03 Data: 182.191
+Train: 0 [ 550/1830 ( 30%)] Loss:  5.114408 (5.1443) Time:  156/s ( 155/s) LR: 2.000e-03 Data: 199.875
+Train: 0 [ 600/1830 ( 33%)] Loss:  5.115924 (5.1419) Time:  157/s ( 155/s) LR: 2.000e-03 Data: 217.453
+Train: 0 [ 650/1830 ( 36%)] Loss:  5.114012 (5.1398) Time:  158/s ( 155/s) LR: 2.000e-03 Data: 235.051
+Train: 0 [ 700/1830 ( 38%)] Loss:  5.117934 (5.1379) Time:  159/s ( 155/s) LR: 2.000e-03 Data: 252.613
+Train: 0 [ 750/1830 ( 41%)] Loss:  5.107443 (5.1362) Time:  152/s ( 155/s) LR: 2.000e-03 Data: 270.232
+Train: 0 [ 800/1830 ( 44%)] Loss:  5.116197 (5.1347) Time:  155/s ( 155/s) LR: 2.000e-03 Data: 287.941
+Train: 0 [ 850/1830 ( 46%)] Loss:  5.105022 (5.1333) Time:  156/s ( 155/s) LR: 2.000e-03 Data: 305.545
+Train: 0 [ 900/1830 ( 49%)] Loss:  5.105315 (5.1321) Time:  156/s ( 155/s) LR: 2.000e-03 Data: 322.846
+Train: 0 [ 950/1830 ( 52%)] Loss:  5.109182 (5.1309) Time:  156/s ( 155/s) LR: 2.000e-03 Data: 340.227
+Train: 0 [1000/1830 ( 55%)] Loss:  5.109237 (5.1299) Time:  157/s ( 155/s) LR: 2.000e-03 Data: 357.904
+Train: 0 [1050/1830 ( 57%)] Loss:  5.104722 (5.1289) Time:  154/s ( 155/s) LR: 2.000e-03 Data: 375.741
+Train: 0 [1100/1830 ( 60%)] Loss:  5.112293 (5.1280) Time:  150/s ( 155/s) LR: 2.000e-03 Data: 393.005
+Train: 0 [1150/1830 ( 63%)] Loss:  5.109327 (5.1272) Time:  157/s ( 155/s) LR: 2.000e-03 Data: 410.287
+Train: 0 [1200/1830 ( 66%)] Loss:  5.106359 (5.1265) Time:  156/s ( 155/s) LR: 2.000e-03 Data: 427.777
+Train: 0 [1250/1830 ( 68%)] Loss:  5.109382 (5.1258) Time:  152/s ( 155/s) LR: 2.000e-03 Data: 445.083
+Train: 0 [1300/1830 ( 71%)] Loss:  5.105809 (5.1251) Time:  156/s ( 155/s) LR: 2.000e-03 Data: 462.409
+Train: 0 [1350/1830 ( 74%)] Loss:  5.104226 (5.1245) Time:  156/s ( 155/s) LR: 2.000e-03 Data: 479.780
+Train: 0 [1400/1830 ( 77%)] Loss:  5.109184 (5.1239) Time:  153/s ( 155/s) LR: 2.000e-03 Data: 497.505
+Train: 0 [1450/1830 ( 79%)] Loss:  5.110367 (5.1234) Time:  155/s ( 155/s) LR: 2.000e-03 Data: 515.054
+Train: 0 [1500/1830 ( 82%)] Loss:  5.111415 (5.1229) Time:  169/s ( 155/s) LR: 2.000e-03 Data: 532.596
+Train: 0 [1550/1830 ( 85%)] Loss:  5.108751 (5.1225) Time:  155/s ( 155/s) LR: 2.000e-03 Data: 550.105
+Train: 0 [1600/1830 ( 87%)] Loss:  5.107046 (5.1220) Time:  155/s ( 155/s) LR: 2.000e-03 Data: 567.833
+Train: 0 [1650/1830 ( 90%)] Loss:  5.110644 (5.1216) Time:  158/s ( 155/s) LR: 2.000e-03 Data: 585.215
+Train: 0 [1700/1830 ( 93%)] Loss:  5.104191 (5.1212) Time:  152/s ( 155/s) LR: 2.000e-03 Data: 602.627
+Train: 0 [1750/1830 ( 96%)] Loss:  5.110450 (5.1208) Time:  154/s ( 155/s) LR: 2.000e-03 Data: 620.117
+Train: 0 [1800/1830 ( 98%)] Loss:  5.107398 (5.1205) Time:  158/s ( 155/s) LR: 2.000e-03 Data: 637.635
+Train: 0 [1829/1830 (100%)] Loss:  5.111693 (5.1203) Time:  157/s ( 155/s) LR: 2.000e-03 Data: 647.595
+Test: [   0/71]  Time: 7.033 (7.033)  Loss:  4.7007 (4.7007)  Acc@1:  1.0000 ( 1.0000)  Acc@5:  5.5714 ( 5.
+5714)
+Test: [  50/71]  Time: 1.304 (1.382)  Loss:  4.7013 (4.7027)  Acc@1:  1.1429 ( 1.0784)  Acc@5:  4.7143 ( 5.
+1345)
+Test: [  71/71]  Time: 0.670 (1.343)  Loss:  4.7036 (4.7023)  Acc@1:  1.0000 ( 1.0100)  Acc@5:  5.3333 ( 5.
+0340)
+Test (EMA): [   0/71]  Time: 6.633 (6.633)  Loss:  4.9619 (4.9619)  Acc@1:  1.0000 ( 1.0000)  Acc@5:  6.857
+1 ( 6.8571)
+Test (EMA): [  50/71]  Time: 1.275 (1.380)  Loss:  5.0080 (4.9780)  Acc@1:  1.0000 ( 0.8936)  Acc@5:  5.714
+3 ( 5.5518)
+Test (EMA): [  71/71]  Time: 0.656 (1.336)  Loss:  4.9646 (4.9767)  Acc@1:  1.3333 ( 0.9920)  Acc@5:  7.000
+0 ( 5.6120)
+Current checkpoints:
+ ('./output/train/20230425-181250-CSWin_64_12211_tiny_224-224/checkpoint-0.pth.tar', 0.9920000158548355)
+
+*** Best metric: 0.9920000158548355 (epoch 0)
+/nas/.conda/envs/cswin-transformer/lib/python3.8/tempfile.py:818: ResourceWarning: Implicitly cleaning up <
+TemporaryDirectory '/tmp/tmp3sic0asg'>
+  _warnings.warn(warn_message, ResourceWarning)
+(cswin-transformer) ubuntu@moreh-2004-vm08:/nas/thuchk/repos/CSWin-Transformer$ tmux capture-pane -pS -300
+> cswin_transformer_medium128gb_bs700.log
+

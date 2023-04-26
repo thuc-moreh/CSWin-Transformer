@@ -1,0 +1,199 @@
+(cswin-transformer) ubuntu@moreh-2004-vm08:/nas/thuchk/repos/CSWin-Transfor
+mer$ time bash run_main.sh
+Training with a single process on 1 GPUs.
+Model CSWin_64_12211_tiny_224 created, param count: 22320552
+Data processing configuration for current model + dataset:
+        input_size: (3, 224, 224)
+        interpolation: bicubic
+        mean: (0.485, 0.456, 0.406)
+        std: (0.229, 0.224, 0.225)
+        crop_pct: 0.9
+AMP not enabled. Training in float32.
+Scheduled epochs: 1
+/nas/.conda/envs/cswin-transformer/lib/python3.8/site-packages/torch/_M/dri
+ver/cuda/builtin.py:27: UserWarning: torch.cuda.synchronize() is ignored in
+ Moreh AI Framework. This does not affect the program behavior in most case
+s. Please contact technical support for further information.
+  warnings.warn(
+Train: 0 [   0/3660 (  0%)] Loss:  6.984956 (6.9850) Time:   60/s (  60/s)
+LR: 2.000e-03 Data: 2.819
+Train: 0 [  50/3660 (  1%)] Loss:  5.179711 (5.3172) Time:  141/s ( 138/s)
+LR: 2.000e-03 Data: 11.479
+Train: 0 [ 100/3660 (  3%)] Loss:  5.184110 (5.2479) Time:  141/s ( 139/s)
+LR: 2.000e-03 Data: 20.131
+Train: 0 [ 150/3660 (  4%)] Loss:  5.155274 (5.2193) Time:  134/s ( 138/s)
+LR: 2.000e-03 Data: 28.774
+Train: 0 [ 200/3660 (  5%)] Loss:  5.134338 (5.2024) Time:  138/s ( 137/s)
+LR: 2.000e-03 Data: 37.443
+Train: 0 [ 250/3660 (  7%)] Loss:  5.147257 (5.1902) Time:  139/s ( 137/s)
+LR: 2.000e-03 Data: 46.048
+Train: 0 [ 300/3660 (  8%)] Loss:  5.136318 (5.1817) Time:  137/s ( 137/s)
+LR: 2.000e-03 Data: 54.874
+Train: 0 [ 350/3660 ( 10%)] Loss:  5.120442 (5.1745) Time:  135/s ( 137/s)
+LR: 2.000e-03 Data: 63.526
+Train: 0 [ 400/3660 ( 11%)] Loss:  5.118502 (5.1687) Time:  138/s ( 137/s)
+LR: 2.000e-03 Data: 72.313
+Train: 0 [ 450/3660 ( 12%)] Loss:  5.120126 (5.1638) Time:  135/s ( 136/s)
+LR: 2.000e-03 Data: 80.986
+Train: 0 [ 500/3660 ( 14%)] Loss:  5.133762 (5.1597) Time:  135/s ( 136/s)
+LR: 2.000e-03 Data: 89.741
+Train: 0 [ 550/3660 ( 15%)] Loss:  5.118526 (5.1562) Time:  134/s ( 136/s)
+LR: 2.000e-03 Data: 98.436
+Train: 0 [ 600/3660 ( 16%)] Loss:  5.107480 (5.1529) Time:  135/s ( 136/s)
+LR: 2.000e-03 Data: 107.217
+Train: 0 [ 650/3660 ( 18%)] Loss:  5.137935 (5.1498) Time:  135/s ( 136/s)
+LR: 2.000e-03 Data: 116.017
+Train: 0 [ 700/3660 ( 19%)] Loss:  5.115498 (5.1472) Time:  135/s ( 136/s)
+LR: 2.000e-03 Data: 124.764
+Train: 0 [ 750/3660 ( 20%)] Loss:  5.103006 (5.1443) Time:  135/s ( 136/s)
+LR: 2.000e-03 Data: 133.462
+Train: 0 [ 800/3660 ( 22%)] Loss:  5.089423 (5.1414) Time:  136/s ( 136/s)
+LR: 2.000e-03 Data: 142.287
+Train: 0 [ 850/3660 ( 23%)] Loss:  5.087624 (5.1391) Time:  134/s ( 136/s)
+LR: 2.000e-03 Data: 150.842
+Train: 0 [ 900/3660 ( 25%)] Loss:  5.111920 (5.1370) Time:  132/s ( 136/s)
+LR: 2.000e-03 Data: 159.573
+Train: 0 [ 950/3660 ( 26%)] Loss:  5.108700 (5.1358) Time:  134/s ( 136/s)
+LR: 2.000e-03 Data: 168.215
+Train: 0 [1000/3660 ( 27%)] Loss:  5.125758 (5.1347) Time:  139/s ( 136/s)
+LR: 2.000e-03 Data: 176.914
+Train: 0 [1050/3660 ( 29%)] Loss:  5.117721 (5.1336) Time:  136/s ( 136/s)
+LR: 2.000e-03 Data: 185.676
+Train: 0 [1100/3660 ( 30%)] Loss:  5.113893 (5.1326) Time:  134/s ( 136/s)
+LR: 2.000e-03 Data: 194.384
+Train: 0 [1150/3660 ( 31%)] Loss:  5.122416 (5.1317) Time:  136/s ( 136/s)
+LR: 2.000e-03 Data: 203.251
+Train: 0 [1200/3660 ( 33%)] Loss:  5.106703 (5.1308) Time:  138/s ( 136/s)
+LR: 2.000e-03 Data: 212.061
+Train: 0 [1250/3660 ( 34%)] Loss:  5.100917 (5.1300) Time:  138/s ( 136/s)
+LR: 2.000e-03 Data: 220.595
+Train: 0 [1300/3660 ( 36%)] Loss:  5.106997 (5.1293) Time:  139/s ( 136/s)
+LR: 2.000e-03 Data: 229.404
+Train: 0 [1350/3660 ( 37%)] Loss:  5.103171 (5.1286) Time:  138/s ( 136/s)
+LR: 2.000e-03 Data: 238.120
+Train: 0 [1400/3660 ( 38%)] Loss:  5.117105 (5.1279) Time:  138/s ( 136/s)
+LR: 2.000e-03 Data: 246.821
+Train: 0 [1450/3660 ( 40%)] Loss:  5.118195 (5.1273) Time:  139/s ( 136/s)
+LR: 2.000e-03 Data: 255.536
+Train: 0 [1500/3660 ( 41%)] Loss:  5.114418 (5.1266) Time:  132/s ( 136/s)
+LR: 2.000e-03 Data: 264.271
+Train: 0 [1550/3660 ( 42%)] Loss:  5.102827 (5.1261) Time:  134/s ( 136/s)
+LR: 2.000e-03 Data: 272.898
+Train: 0 [1600/3660 ( 44%)] Loss:  5.117322 (5.1255) Time:  140/s ( 136/s)
+LR: 2.000e-03 Data: 281.595
+Train: 0 [1650/3660 ( 45%)] Loss:  5.100975 (5.1250) Time:  138/s ( 136/s)
+LR: 2.000e-03 Data: 290.413
+Train: 0 [1700/3660 ( 46%)] Loss:  5.102432 (5.1244) Time:  140/s ( 136/s)
+LR: 2.000e-03 Data: 299.152
+Train: 0 [1750/3660 ( 48%)] Loss:  5.109486 (5.1239) Time:  140/s ( 136/s)
+LR: 2.000e-03 Data: 307.798
+Train: 0 [1800/3660 ( 49%)] Loss:  5.108088 (5.1233) Time:  136/s ( 136/s)
+LR: 2.000e-03 Data: 316.566
+Train: 0 [1850/3660 ( 51%)] Loss:  5.098244 (5.1228) Time:  139/s ( 136/s)
+LR: 2.000e-03 Data: 325.246
+Train: 0 [1900/3660 ( 52%)] Loss:  5.099597 (5.1223) Time:  139/s ( 136/s)
+LR: 2.000e-03 Data: 333.910
+Train: 0 [1950/3660 ( 53%)] Loss:  5.112654 (5.1218) Time:  134/s ( 136/s)
+LR: 2.000e-03 Data: 342.649
+Train: 0 [2000/3660 ( 55%)] Loss:  5.109488 (5.1214) Time:  133/s ( 136/s)
+LR: 2.000e-03 Data: 351.410
+Train: 0 [2050/3660 ( 56%)] Loss:  5.110676 (5.1210) Time:  139/s ( 136/s)
+LR: 2.000e-03 Data: 360.085
+Train: 0 [2100/3660 ( 57%)] Loss:  5.103707 (5.1206) Time:  135/s ( 136/s)
+LR: 2.000e-03 Data: 368.890
+Train: 0 [2150/3660 ( 59%)] Loss:  5.099241 (5.1202) Time:  138/s ( 136/s)
+LR: 2.000e-03 Data: 377.464
+Train: 0 [2200/3660 ( 60%)] Loss:  5.112483 (5.1199) Time:  137/s ( 136/s)
+LR: 2.000e-03 Data: 386.174
+Train: 0 [2250/3660 ( 61%)] Loss:  5.096025 (5.1195) Time:  138/s ( 136/s)
+LR: 2.000e-03 Data: 394.940
+Train: 0 [2300/3660 ( 63%)] Loss:  5.099305 (5.1191) Time:  140/s ( 136/s)
+LR: 2.000e-03 Data: 403.658
+Train: 0 [2350/3660 ( 64%)] Loss:  5.111879 (5.1187) Time:  138/s ( 136/s)
+LR: 2.000e-03 Data: 412.457
+Train: 0 [2400/3660 ( 66%)] Loss:  5.106772 (5.1184) Time:  129/s ( 136/s)
+LR: 2.000e-03 Data: 421.243
+Train: 0 [2450/3660 ( 67%)] Loss:  5.090791 (5.1180) Time:  138/s ( 136/s)
+LR: 2.000e-03 Data: 429.880
+Train: 0 [2500/3660 ( 68%)] Loss:  5.114039 (5.1178) Time:  138/s ( 136/s)
+LR: 2.000e-03 Data: 438.687
+Train: 0 [2550/3660 ( 70%)] Loss:  5.103313 (5.1176) Time:  135/s ( 136/s)
+LR: 2.000e-03 Data: 447.422
+Train: 0 [2600/3660 ( 71%)] Loss:  5.110181 (5.1174) Time:  137/s ( 136/s)
+LR: 2.000e-03 Data: 456.092
+Train: 0 [2650/3660 ( 72%)] Loss:  5.110328 (5.1172) Time:  136/s ( 136/s)
+LR: 2.000e-03 Data: 464.844
+Train: 0 [2700/3660 ( 74%)] Loss:  5.111130 (5.1170) Time:  137/s ( 136/s)
+LR: 2.000e-03 Data: 473.594
+Train: 0 [2750/3660 ( 75%)] Loss:  5.104215 (5.1168) Time:  140/s ( 136/s)
+LR: 2.000e-03 Data: 482.331
+Train: 0 [2800/3660 ( 77%)] Loss:  5.095558 (5.1165) Time:  137/s ( 136/s)
+LR: 2.000e-03 Data: 491.073
+Train: 0 [2850/3660 ( 78%)] Loss:  5.102616 (5.1163) Time:  139/s ( 136/s)
+LR: 2.000e-03 Data: 499.780
+Train: 0 [2900/3660 ( 79%)] Loss:  5.109962 (5.1160) Time:  138/s ( 136/s)
+LR: 2.000e-03 Data: 508.533
+Train: 0 [2950/3660 ( 81%)] Loss:  5.094540 (5.1158) Time:  139/s ( 137/s)
+LR: 2.000e-03 Data: 517.356
+Train: 0 [3000/3660 ( 82%)] Loss:  5.094606 (5.1156) Time:  139/s ( 137/s)
+LR: 2.000e-03 Data: 526.006
+Train: 0 [3050/3660 ( 83%)] Loss:  5.089699 (5.1153) Time:  135/s ( 137/s)
+LR: 2.000e-03 Data: 534.621
+Train: 0 [3100/3660 ( 85%)] Loss:  5.113711 (5.1152) Time:  137/s ( 137/s)
+LR: 2.000e-03 Data: 543.262
+Train: 0 [3150/3660 ( 86%)] Loss:  5.095572 (5.1150) Time:  139/s ( 137/s)
+LR: 2.000e-03 Data: 552.062
+Train: 0 [3200/3660 ( 87%)] Loss:  5.097080 (5.1147) Time:  134/s ( 137/s)
+LR: 2.000e-03 Data: 560.849
+Train: 0 [3250/3660 ( 89%)] Loss:  5.107287 (5.1144) Time:  138/s ( 137/s)
+LR: 2.000e-03 Data: 569.563
+Train: 0 [3300/3660 ( 90%)] Loss:  5.100600 (5.1141) Time:  139/s ( 137/s)
+LR: 2.000e-03 Data: 578.273
+Train: 0 [3350/3660 ( 92%)] Loss:  5.096147 (5.1139) Time:  138/s ( 137/s)
+LR: 2.000e-03 Data: 586.916
+Train: 0 [3400/3660 ( 93%)] Loss:  5.081348 (5.1135) Time:  136/s ( 137/s)
+LR: 2.000e-03 Data: 595.485
+Train: 0 [3450/3660 ( 94%)] Loss:  5.110196 (5.1133) Time:  137/s ( 137/s)
+LR: 2.000e-03 Data: 604.151
+Train: 0 [3500/3660 ( 96%)] Loss:  5.085249 (5.1129) Time:  138/s ( 137/s)
+LR: 2.000e-03 Data: 612.791
+Train: 0 [3550/3660 ( 97%)] Loss:  5.081636 (5.1126) Time:  139/s ( 137/s)
+LR: 2.000e-03 Data: 621.528
+Train: 0 [3600/3660 ( 98%)] Loss:  5.090918 (5.1123) Time:  138/s ( 137/s)
+LR: 2.000e-03 Data: 630.460
+Train: 0 [3650/3660 (100%)] Loss:  5.090669 (5.1120) Time:  137/s ( 137/s)
+LR: 2.000e-03 Data: 639.202
+Train: 0 [3659/3660 (100%)] Loss:  5.102068 (5.1119) Time:  143/s ( 137/s)
+LR: 2.000e-03 Data: 640.685
+Test: [   0/142]  Time: 3.438 (3.438)  Loss:  4.6385 (4.6385)  Acc@1:  1.71
+43 ( 1.7143)  Acc@5:  8.8571 ( 8.8571)
+Test: [  50/142]  Time: 0.669 (0.722)  Loss:  4.5725 (4.6197)  Acc@1:  2.85
+71 ( 2.6499)  Acc@5: 19.7143 (10.4818)
+Test: [ 100/142]  Time: 0.669 (0.694)  Loss:  4.6202 (4.6242)  Acc@1:  2.28
+57 ( 2.5120)  Acc@5:  8.5714 (10.4017)
+Test: [ 142/142]  Time: 0.649 (0.686)  Loss:  4.6333 (4.6226)  Acc@1:  2.00
+00 ( 2.3840)  Acc@5:  9.3333 (10.4520)
+Test (EMA): [   0/142]  Time: 3.282 (3.282)  Loss:  4.6517 (4.6517)  Acc@1:
+  1.4286 ( 1.4286)  Acc@5:  4.5714 ( 4.5714)
+Test (EMA): [  50/142]  Time: 0.669 (0.716)  Loss:  4.6480 (4.6336)  Acc@1:
+  0.0000 ( 0.8347)  Acc@5:  3.7143 ( 4.8627)
+Test (EMA): [ 100/142]  Time: 0.662 (0.692)  Loss:  4.6332 (4.6328)  Acc@1:
+  0.0000 ( 0.9929)  Acc@5:  2.8571 ( 5.1429)
+Test (EMA): [ 142/142]  Time: 0.638 (0.684)  Loss:  4.6261 (4.6341)  Acc@1:
+  0.6667 ( 0.9560)  Acc@5:  7.0000 ( 5.1700)
+Current checkpoints:
+ ('./output/train/20230426-111410-CSWin_64_12211_tiny_224-224/checkpoint-0.
+pth.tar', 0.9560000161826611)
+
+*** Best metric: 0.9560000161826611 (epoch 0)
+/nas/.conda/envs/cswin-transformer/lib/python3.8/tempfile.py:818: ResourceW
+arning: Implicitly cleaning up <TemporaryDirectory '/tmp/tmp14jimo_s'>
+  _warnings.warn(warn_message, ResourceWarning)
+
+real    160m2.815s
+user    265m49.022s
+sys     16m19.756s
+(cswin-transformer) ubuntu@moreh-2004-vm08:/nas/thuchk/repos/CSWin-Transfor
+mer$ t
+mux capture-pane -pS -300 > cswin_transformer_medium128gb_bs350.log
+
