@@ -1,0 +1,90 @@
+
+Train: 0 [ 450/3660 ( 12%)] Loss:  5.131625 (5.1601) Time:  315/s ( 313/s) LR: 2.000e-03 Data: 17.013
+Train: 0 [ 500/3660 ( 14%)] Loss:  5.117495 (5.1556) Time:  317/s ( 313/s) LR: 2.000e-03 Data: 18.525
+Train: 0 [ 550/3660 ( 15%)] Loss:  5.121406 (5.1521) Time:  317/s ( 314/s) LR: 2.000e-03 Data: 19.998
+Train: 0 [ 600/3660 ( 16%)] Loss:  5.129053 (5.1493) Time:  318/s ( 314/s) LR: 2.000e-03 Data: 21.456
+Train: 0 [ 650/3660 ( 18%)] Loss:  5.113244 (5.1468) Time:  317/s ( 314/s) LR: 2.000e-03 Data: 22.874
+Train: 0 [ 700/3660 ( 19%)] Loss:  5.117972 (5.1447) Time:  313/s ( 314/s) LR: 2.000e-03 Data: 24.318
+Train: 0 [ 750/3660 ( 20%)] Loss:  5.103819 (5.1427) Time:  311/s ( 314/s) LR: 2.000e-03 Data: 25.766
+Train: 0 [ 800/3660 ( 22%)] Loss:  5.117554 (5.1410) Time:  316/s ( 314/s) LR: 2.000e-03 Data: 27.214
+Train: 0 [ 850/3660 ( 23%)] Loss:  5.104990 (5.1394) Time:  318/s ( 314/s) LR: 2.000e-03 Data: 28.679
+Train: 0 [ 900/3660 ( 25%)] Loss:  5.132692 (5.1380) Time:  316/s ( 314/s) LR: 2.000e-03 Data: 30.129
+Train: 0 [ 950/3660 ( 26%)] Loss:  5.115883 (5.1367) Time:  316/s ( 314/s) LR: 2.000e-03 Data: 31.599
+Train: 0 [1000/3660 ( 27%)] Loss:  5.118979 (5.1355) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 33.049
+Train: 0 [1050/3660 ( 29%)] Loss:  5.119687 (5.1344) Time:  316/s ( 315/s) LR: 2.000e-03 Data: 34.484
+Train: 0 [1100/3660 ( 30%)] Loss:  5.110997 (5.1334) Time:  316/s ( 315/s) LR: 2.000e-03 Data: 35.924
+Train: 0 [1150/3660 ( 31%)] Loss:  5.110575 (5.1323) Time:  316/s ( 315/s) LR: 2.000e-03 Data: 37.379
+Train: 0 [1200/3660 ( 33%)] Loss:  5.105037 (5.1312) Time:  316/s ( 315/s) LR: 2.000e-03 Data: 38.947
+Train: 0 [1250/3660 ( 34%)] Loss:  5.101924 (5.1304) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 40.365
+Train: 0 [1300/3660 ( 36%)] Loss:  5.108893 (5.1297) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 41.818
+Train: 0 [1350/3660 ( 37%)] Loss:  5.116551 (5.1290) Time:  316/s ( 315/s) LR: 2.000e-03 Data: 43.242
+Train: 0 [1400/3660 ( 38%)] Loss:  5.129372 (5.1283) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 44.646
+Train: 0 [1450/3660 ( 40%)] Loss:  5.107650 (5.1276) Time:  318/s ( 315/s) LR: 2.000e-03 Data: 46.090
+Train: 0 [1500/3660 ( 41%)] Loss:  5.114082 (5.1269) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 47.508
+Train: 0 [1550/3660 ( 42%)] Loss:  5.108656 (5.1264) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 48.908
+Train: 0 [1600/3660 ( 44%)] Loss:  5.112634 (5.1258) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 50.304
+Train: 0 [1650/3660 ( 45%)] Loss:  5.112726 (5.1251) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 51.836
+Train: 0 [1700/3660 ( 46%)] Loss:  5.101941 (5.1247) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 53.279
+Train: 0 [1750/3660 ( 48%)] Loss:  5.105190 (5.1241) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 54.727
+Train: 0 [1800/3660 ( 49%)] Loss:  5.102732 (5.1237) Time:  314/s ( 315/s) LR: 2.000e-03 Data: 56.200
+Train: 0 [1850/3660 ( 51%)] Loss:  5.103226 (5.1232) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 57.668
+Train: 0 [1900/3660 ( 52%)] Loss:  5.105017 (5.1228) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 59.137
+Train: 0 [1950/3660 ( 53%)] Loss:  5.109248 (5.1223) Time:  316/s ( 315/s) LR: 2.000e-03 Data: 60.597
+Train: 0 [2000/3660 ( 55%)] Loss:  5.109093 (5.1220) Time:  315/s ( 315/s) LR: 2.000e-03 Data: 62.067
+Train: 0 [2050/3660 ( 56%)] Loss:  5.114533 (5.1216) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 63.538
+Train: 0 [2100/3660 ( 57%)] Loss:  5.106049 (5.1212) Time:  313/s ( 315/s) LR: 2.000e-03 Data: 65.000
+Train: 0 [2150/3660 ( 59%)] Loss:  5.111660 (5.1208) Time:  315/s ( 315/s) LR: 2.000e-03 Data: 66.453
+Train: 0 [2200/3660 ( 60%)] Loss:  5.099170 (5.1204) Time:  312/s ( 315/s) LR: 2.000e-03 Data: 68.012
+Train: 0 [2250/3660 ( 61%)] Loss:  5.112261 (5.1199) Time:  315/s ( 315/s) LR: 2.000e-03 Data: 69.491
+Train: 0 [2300/3660 ( 63%)] Loss:  5.082293 (5.1193) Time:  317/s ( 315/s) LR: 2.000e-03 Data: 70.929
+Train: 0 [2350/3660 ( 64%)] Loss:       nan (   nan) Time:  328/s ( 315/s) LR: 2.000e-03 Data: 72.379
+Train: 0 [2400/3660 ( 66%)] Loss:       nan (   nan) Time:  329/s ( 315/s) LR: 2.000e-03 Data: 73.830
+Train: 0 [2450/3660 ( 67%)] Loss:       nan (   nan) Time:  329/s ( 316/s) LR: 2.000e-03 Data: 75.289
+Train: 0 [2500/3660 ( 68%)] Loss:       nan (   nan) Time:  326/s ( 316/s) LR: 2.000e-03 Data: 76.770
+Train: 0 [2550/3660 ( 70%)] Loss:       nan (   nan) Time:  328/s ( 316/s) LR: 2.000e-03 Data: 78.232
+Train: 0 [2600/3660 ( 71%)] Loss:       nan (   nan) Time:  328/s ( 316/s) LR: 2.000e-03 Data: 79.670
+Train: 0 [2650/3660 ( 72%)] Loss:       nan (   nan) Time:  328/s ( 317/s) LR: 2.000e-03 Data: 81.110
+Train: 0 [2700/3660 ( 74%)] Loss:       nan (   nan) Time:  328/s ( 317/s) LR: 2.000e-03 Data: 82.561
+Train: 0 [2750/3660 ( 75%)] Loss:       nan (   nan) Time:  328/s ( 317/s) LR: 2.000e-03 Data: 84.011
+Train: 0 [2800/3660 ( 77%)] Loss:       nan (   nan) Time:  328/s ( 317/s) LR: 2.000e-03 Data: 85.461
+Train: 0 [2850/3660 ( 78%)] Loss:       nan (   nan) Time:  329/s ( 317/s) LR: 2.000e-03 Data: 86.901
+Train: 0 [2900/3660 ( 79%)] Loss:       nan (   nan) Time:  328/s ( 318/s) LR: 2.000e-03 Data: 88.350
+Train: 0 [2950/3660 ( 81%)] Loss:       nan (   nan) Time:  326/s ( 318/s) LR: 2.000e-03 Data: 89.786
+Train: 0 [3000/3660 ( 82%)] Loss:       nan (   nan) Time:  328/s ( 318/s) LR: 2.000e-03 Data: 91.247
+Train: 0 [3050/3660 ( 83%)] Loss:       nan (   nan) Time:  296/s ( 318/s) LR: 2.000e-03 Data: 92.685
+Train: 0 [3100/3660 ( 85%)] Loss:       nan (   nan) Time:  328/s ( 318/s) LR: 2.000e-03 Data: 94.143
+Train: 0 [3150/3660 ( 86%)] Loss:       nan (   nan) Time:  328/s ( 318/s) LR: 2.000e-03 Data: 95.612
+Train: 0 [3200/3660 ( 87%)] Loss:       nan (   nan) Time:  328/s ( 318/s) LR: 2.000e-03 Data: 97.234
+Train: 0 [3250/3660 ( 89%)] Loss:       nan (   nan) Time:  328/s ( 319/s) LR: 2.000e-03 Data: 98.678
+Train: 0 [3300/3660 ( 90%)] Loss:       nan (   nan) Time:  329/s ( 319/s) LR: 2.000e-03 Data: 100.143
+Train: 0 [3350/3660 ( 92%)] Loss:       nan (   nan) Time:  328/s ( 319/s) LR: 2.000e-03 Data: 101.616
+Train: 0 [3400/3660 ( 93%)] Loss:       nan (   nan) Time:  328/s ( 319/s) LR: 2.000e-03 Data: 103.083
+Train: 0 [3450/3660 ( 94%)] Loss:       nan (   nan) Time:  327/s ( 319/s) LR: 2.000e-03 Data: 104.552
+Train: 0 [3500/3660 ( 96%)] Loss:       nan (   nan) Time:  328/s ( 319/s) LR: 2.000e-03 Data: 106.031
+Train: 0 [3550/3660 ( 97%)] Loss:       nan (   nan) Time:  328/s ( 319/s) LR: 2.000e-03 Data: 107.518
+Train: 0 [3600/3660 ( 98%)] Loss:       nan (   nan) Time:  328/s ( 319/s) LR: 2.000e-03 Data: 109.001
+Train: 0 [3650/3660 (100%)] Loss:       nan (   nan) Time:  329/s ( 320/s) LR: 2.000e-03 Data: 110.491
+Train: 0 [3659/3660 (100%)] Loss:       nan (   nan) Time:  288/s ( 320/s) LR: 2.000e-03 Data: 110.892
+Test: [   0/142]  Time: 4.308 (4.308)  Loss:  4.6797 (4.6797)  Acc@1:  1.7143 ( 1.7143)  Acc@5:  5.4286 ( 5
+.4286)
+Test: [  50/142]  Time: 0.269 (0.401)  Loss:  4.6875 (4.6857)  Acc@1:  0.2857 ( 1.1429)  Acc@5:  3.4286 ( 4
+.9356)
+Test: [ 100/142]  Time: 0.270 (0.360)  Loss:  4.6875 (4.6837)  Acc@1:  1.7143 ( 1.2900)  Acc@5:  5.7143 ( 5
+.4144)
+Test: [ 142/142]  Time: 0.550 (0.347)  Loss:  4.6797 (4.6846)  Acc@1:  0.3333 ( 1.2340)  Acc@5:  4.0000 ( 5
+.4840)
+Test (EMA): [   0/142]  Time: 3.977 (3.977)  Loss:  4.6328 (4.6328)  Acc@1:  0.8571 ( 0.8571)  Acc@5:  5.42
+86 ( 5.4286)
+Test (EMA): [  50/142]  Time: 0.266 (0.391)  Loss:  4.6445 (4.6357)  Acc@1:  0.8571 ( 1.4790)  Acc@5:  4.85
+71 ( 5.2101)
+Test (EMA): [ 100/142]  Time: 0.266 (0.348)  Loss:  4.6289 (4.6351)  Acc@1:  1.7143 ( 1.3437)  Acc@5:  7.14
+29 ( 5.1457)
+Test (EMA): [ 142/142]  Time: 0.330 (0.337)  Loss:  4.6562 (4.6358)  Acc@1:  0.3333 ( 1.3780)  Acc@5:  3.00
+00 ( 5.2880)
+Current checkpoints:
+ ('./output/train/20230425-093120-CSWin_64_12211_tiny_224-224/checkpoint-0.pth.tar', 1.3779999822974205)
+
+*** Best metric: 1.3779999822974205 (epoch 0)
+(cswin-transformer) ubuntu@haca1002:/nas/thuchk/CSWin-Transformer$ tmux capture-pane -pS -300 > cswin_trans
+former_nvidia_bs350.log
+

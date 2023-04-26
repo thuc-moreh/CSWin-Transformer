@@ -1,3 +1,15 @@
+# Instructions to validate CSWin-Transformer on Nvidia A100 VM with automatic mixed precision
+1. Create conda env and install nvidia amp
+```bash
+conda env create -f env.yml
+conda activate cswin-transformer
+bash install_req.sh
+conda install -c "conda-forge/label/cf202003" nvidia-apex
+```
+2. Launch the training process
+```bash
+bash run_main.sh
+```
 # CSWin-Transformer, CVPR 2022
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cswin-transformer-a-general-vision/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=cswin-transformer-a-general-vision)
