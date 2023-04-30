@@ -1,0 +1,34 @@
+(cswin-transformer) ubuntu@moreh-2004-vm08:/nas/thuchk/repos/CSWin-Transformer$ bash run_main.sh
+
+Training with a single process on 1 GPUs.
+[2023-04-30 17:20:06.588] [info] Requesting resources for KT AI Accelerator from the server...
+[2023-04-30 17:20:07.604] [info] Initializing the worker daemon for KT AI Accelerator
+[2023-04-30 17:20:09.169] [info] [1/1] Connecting to resources on the server (192.168.110.4:24167)...
+[2023-04-30 17:20:09.183] [info] Establishing links to the resources...
+[2023-04-30 17:20:09.288] [info] KT AI Accelerator is ready to use.
+Num: 22.320552
+Model CSWin_64_12211_tiny_224 created, param count: 22320552
+Data processing configuration for current model + dataset:
+        input_size: (3, 224, 224)
+        interpolation: bicubic
+        mean: (0.485, 0.456, 0.406)
+        std: (0.229, 0.224, 0.225)
+        crop_pct: 0.9
+AMP not enabled. Training in float32.
+Scheduled epochs: 1
+/nas/.conda/envs/cswin-transformer/lib/python3.8/site-packages/torch/_M/driver/cuda/builtin.py:27: UserWarning
+: torch.cuda.synchronize() is ignored in Moreh AI Framework. This does not affect the program behavior in most
+ cases. Please contact technical support for further information.
+  warnings.warn(
+Train: 0 [   0/1830 (  0%)] Loss:  7.004714 (7.0047) Time:   63/s (  63/s) LR: 2.000e-03 Data: 7.628
+Train: 0 [  50/1830 (  3%)] Loss:  5.135229 (5.2797) Time:  157/s ( 155/s) LR: 2.000e-03 Data: 25.354
+Train: 0 [ 100/1830 (  5%)] Loss:  5.154735 (5.2199) Time:  158/s ( 155/s) LR: 2.000e-03 Data: 43.098
+Train: 0 [ 150/1830 (  8%)] Loss:  5.138874 (5.1960) Time:  157/s ( 155/s) LR: 2.000e-03 Data: 60.580
+Train: 0 [ 200/1830 ( 11%)] Loss:  5.149462 (5.1809) Time:  156/s ( 156/s) LR: 2.000e-03 Data: 78.138
+Train: 0 [ 250/1830 ( 14%)] Loss:  5.123234 (5.1698) Time:  156/s ( 156/s) LR: 2.000e-03 Data: 95.822
+Train: 0 [ 300/1830 ( 16%)] Loss:  5.118484 (5.1608) Time:  157/s ( 156/s) LR: 2.000e-03 Data: 113.665
+Train: 0 [ 350/1830 ( 19%)] Loss:  5.108062 (5.1552) Time:  156/s ( 156/s) LR: 2.000e-03 Data: 131.148
+
+(cswin-transformer) ubuntu@moreh-2004-vm08:/nas/thuchk/repos/CSWin-Transformer$ tmux capture-pane -pS -300 > c
+swin_transformer_bs700_withoutamp.log
+
